@@ -1,0 +1,27 @@
+{
+  "name": "CMYRefresh",
+  "version": "0.1.0",
+  "summary": "A short description of CMYRefresh.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BeyChan/CMYRefresh",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BeyChan": "beychan@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/BeyChan/CMYRefresh.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CMYRefresh/Classes/**/*",
+  "dependencies": {
+    "CMYKit/Core": [
+
+    ]
+  }
+}

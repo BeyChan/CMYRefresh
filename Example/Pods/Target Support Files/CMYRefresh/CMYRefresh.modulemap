@@ -1,0 +1,6 @@
+framework module CMYRefresh {
+  umbrella header "CMYRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}
