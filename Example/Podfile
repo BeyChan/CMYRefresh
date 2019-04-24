@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CMYRefresh_Example' do
+  pod 'CMYRefresh', :path => '../'
+
+  target 'CMYRefresh_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
