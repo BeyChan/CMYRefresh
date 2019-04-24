@@ -1,22 +1,15 @@
 PODS:
-  - CMYKit/Core (0.1.9)
-  - CMYRefresh (0.1.0):
-    - CMYKit/Core
+  - CMYRefresh (0.1.2)
 
 DEPENDENCIES:
   - CMYRefresh (from `../`)
-
-SPEC REPOS:
-  https://github.com/BeyChan/CMYSpecs.git:
-    - CMYKit
 
 EXTERNAL SOURCES:
   CMYRefresh:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CMYKit: 4e1ed09b5c6702237193f8a84eed0d89c5ede143
-  CMYRefresh: b0a524729d5efc17f6d5b263673078e4d4c10d3d
+  CMYRefresh: 18a1b2840f8cb7954dcddcd5ac06c392239a3d32
 
 PODFILE CHECKSUM: 2adb4e951001b7a98eeea7080461fb311ccb5a9e
 

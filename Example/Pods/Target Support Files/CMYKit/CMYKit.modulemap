@@ -1,6 +1,0 @@
-framework module CMYKit {
-  umbrella header "CMYKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
