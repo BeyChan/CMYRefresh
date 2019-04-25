@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CMYRefresh'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = '一句代码集成上下左右四个方向的拉动刷新'
   s.swift_version    = '4.2'
 # This description is used to generate tags and improve search results.
@@ -30,9 +30,9 @@ s.description      = '借鉴MJRefresh的思路封装的一个常用的刷新控�
 
   s.source_files = 'CMYRefresh/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'CMYRefresh' => ['CMYRefresh/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'CMYRefresh' => ['CMYRefresh/Assets/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
