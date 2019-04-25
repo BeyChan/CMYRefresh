@@ -1,5 +1,5 @@
 PODS:
-  - CMYRefresh (0.1.2)
+  - CMYRefresh (0.1.4)
 
 DEPENDENCIES:
   - CMYRefresh (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CMYRefresh: 18a1b2840f8cb7954dcddcd5ac06c392239a3d32
+  CMYRefresh: 4a9bee3d8848a53eb63e156806e37bb038c160c4
 
 PODFILE CHECKSUM: 2adb4e951001b7a98eeea7080461fb311ccb5a9e
 
-COCOAPODS: 1.7.0.beta.2
+COCOAPODS: 1.6.1

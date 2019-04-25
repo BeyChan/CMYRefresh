@@ -5,7 +5,7 @@
 //  Created by Melody on 2019/4/24.
 //
 
-import Foundation
+import UIKit
 
 extension UIView {
     //设置view的anchorPoint，同时保证view的frame不改变
@@ -28,8 +28,11 @@ func degreesToRadians(_ degrees: Double) -> CGFloat {
 }
 
 func imageFromBundle(named: String) -> UIImage? {
-    let fullName = "CMYRefresh.bundle/images/" + named
-    let bundle = Bundle(for: CMYRefresh.self)
-    let path = bundle.path(forResource: named, ofType: nil, inDirectory: "/") ?? fullName
-    return UIImage(contentsOfFile: path)
+    let cmyrefreshBundel = Bundle(for: CMYRefresh.self)
+    let directory = cmyrefreshBundel.infoDictionary?["CFBundleName"] as? String
+    let path = cmyrefreshBundel.path(forResource: directory, ofType: "bundle") ?? ""
+    let bundle = Bundle(path: path)
+    let imagePath = bundle?.path(forResource: named, ofType: "png") ?? ""
+    let image = UIImage(contentsOfFile: imagePath)
+    return image
 }

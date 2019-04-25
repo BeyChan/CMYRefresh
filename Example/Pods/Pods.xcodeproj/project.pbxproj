@@ -8,83 +8,101 @@
 
 /* Begin PBXBuildFile section */
 		0539590EEB9B4ED0C060356E7E8783F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		097F7DFCBCE5251B41D239FE2F387CC9 /* Pods-CMYRefresh_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C07C8ACD1A85EA70A0E7A1D4033BF0B /* Pods-CMYRefresh_Example-dummy.m */; };
-		17EC2E635447D20BAB3765420A407EF4 /* Pods-CMYRefresh_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE203DB217615E02018FE4BAE208E429 /* Pods-CMYRefresh_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E1DE13338A75FFD2C2710CBF69937E9 /* CMYRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ED154833DF82012EA4AACF238ABF51 /* CMYRefresh.swift */; };
-		4FB443376D883EBFC16DAA064C2125DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		7181162DDE86817ABA9741FD66FB7551 /* CMYRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 738AB31666829A5418C88C518185D199 /* CMYRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D46DF8C64D53A2BF42F769018387105 /* CMYRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98FB806950DA5E8351094A7163253F /* CMYRefreshView.swift */; };
-		905C2AA93EADC59C819A6A0C5C513133 /* CMYRefreshConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CA46920F1B79CF12DB39598CE1243 /* CMYRefreshConst.swift */; };
-		A5BC4C9331B73EEA1BB0994A7678575E /* Pods-CMYRefresh_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8008A63BE5FBC57A0DE6541EC1E6BA6 /* Pods-CMYRefresh_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3F19B1FC7A6C28F04C17AD7A1542E31 /* Pods-CMYRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 783851D737BAB6431AFB6E5D6BEDAA12 /* Pods-CMYRefresh_Tests-dummy.m */; };
-		CF6977490F5B62FD17D2B97E78CBB9BF /* CMYRefreshTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD0FE4E91D339F80D9D9F1608EE568 /* CMYRefreshTool.swift */; };
-		D2D08C77FE5A9807631D93E8B2AB0DD2 /* CMYRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D833AAFA3097771C24DF356242638 /* CMYRefresh-dummy.m */; };
+		097F7DFCBCE5251B41D239FE2F387CC9 /* Pods-CMYRefresh_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42143ADFF6C335ACC69B3E96068F2B20 /* Pods-CMYRefresh_Example-dummy.m */; };
+		17EC2E635447D20BAB3765420A407EF4 /* Pods-CMYRefresh_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 843DD67602CC3C01EF49306BFC06E791 /* Pods-CMYRefresh_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23002DE831DF9BF28EEE214C8494EE53 /* CMYRefreshTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF50A593B4A9125A8A2ADAA00F16D50 /* CMYRefreshTool.swift */; };
+		42C240D9F433CB6165B909A2FAEC471E /* CMYRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22538571CFB1739C904B253C393DE0B9 /* CMYRefresh.bundle */; };
+		58244E6198442DF578679F1800245580 /* CMYRefreshConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DDD97652E7D9C124411C6F181BB03B /* CMYRefreshConfig.swift */; };
+		6DC5542F7CA9800EBD34794FCA67FBE8 /* cmy_arrow_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046F306653A1020FC392ED2F97A4362E /* cmy_arrow_down@3x.png */; };
+		8A86C36693F7673A005D1B098A68E1F4 /* cmy_arrow_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D728EB6C6D252AA8C140504D69CCE224 /* cmy_arrow_up@2x.png */; };
+		A5BC4C9331B73EEA1BB0994A7678575E /* Pods-CMYRefresh_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC31AEE262C4563680A1C38EBAF2761E /* Pods-CMYRefresh_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC11E5E0A6BE1BD93855EE380049AF3D /* cmy_arrow_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC45538D4CC85F0B17A3094014A34B0 /* cmy_arrow_up@3x.png */; };
+		AD9F78754F0D9C53CF1814CA7415A620 /* CMYRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3A8B30E9A3E423F3390DB0DF53DC1C /* CMYRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADE79230AAA042F630A75543DF7C900F /* cmy_arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0427CD3E40CFB426124E8E050BE24C /* cmy_arrow_down@2x.png */; };
+		C3F19B1FC7A6C28F04C17AD7A1542E31 /* Pods-CMYRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F0CD521D96D7E2A8F1FEBFE7AFAE25 /* Pods-CMYRefresh_Tests-dummy.m */; };
+		CBCC6A23253BB1AB9D4282FEF369FEF5 /* CMYRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D998FF32D91AAE60104671A75AC7CB86 /* CMYRefresh-dummy.m */; };
+		DB312434FBB3ED116DDEAE822F20CACE /* CMYRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03664CB5AC7F86EF7CF7F1FA62E786B /* CMYRefresh.swift */; };
+		DC924BA6B53DBB06D2183429B1B7BCB7 /* CMYRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FB0D3D28DFF61D3B3319363C30AB1 /* CMYRefreshView.swift */; };
+		E4181FB165BF3CCADA1A306B45F0C205 /* CMYRefreshConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03B9983772BFFF0C941B3F63FD9715A /* CMYRefreshConst.swift */; };
 		E4EAA04C933FFB4F48A6D017BE35A34C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		F416258D22CB7A014C82D71BACAD5556 /* CMYRefreshConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43FC02ADB4DAA6BEABAD9CD9469F8C /* CMYRefreshConfig.swift */; };
+		F4EABF3815C4F8D670E93D9E35C0611C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		45000C3FFF339186001CC241D8FD283B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC433E4EF255CB7BEC88F92A9A04BF2;
+			remoteInfo = "CMYRefresh-CMYRefresh";
+		};
 		8135A11F5789CEA4D43D79A232AF0FC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 421DFDC3724F04FC0EC46C4B996EA03C;
+			remoteGlobalIDString = 696D4D5DBD8C715494506009C3076519;
 			remoteInfo = "Pods-CMYRefresh_Example";
 		};
 		867D1890A5A60E0FFD6F12AFCB0CF9A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 66F58F826B8FF9976809E5BF2E673077;
+			remoteGlobalIDString = 60AB480702171A4AD41E6E0687CF8D99;
 			remoteInfo = CMYRefresh;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D73DFD2A41112C09ECC3E64B991C39A /* Pods-CMYRefresh_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CMYRefresh_Example.modulemap"; sourceTree = "<group>"; };
-		2D1CA46920F1B79CF12DB39598CE1243 /* CMYRefreshConst.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMYRefreshConst.swift; path = CMYRefresh/Classes/CMYRefreshConst.swift; sourceTree = "<group>"; };
-		2F61D065F55C046FA58CBD20D1F81BC4 /* Pods-CMYRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CMYRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46939F9E0EED9F61D8E70D63D6D93269 /* CMYRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CMYRefresh.modulemap; sourceTree = "<group>"; };
-		4740B92E5F004DD0CCF602CDB7CEA4DA /* CMYRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CMYRefresh.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		579C5D5BCB332DB10B0B8CFE27114016 /* CMYRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMYRefresh-prefix.pch"; sourceTree = "<group>"; };
-		5C98FB806950DA5E8351094A7163253F /* CMYRefreshView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMYRefreshView.swift; path = CMYRefresh/Classes/CMYRefreshView.swift; sourceTree = "<group>"; };
-		6FE0AB3664B1309D1263FAE8BDA03D58 /* Pods-CMYRefresh_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMYRefresh_Tests-Info.plist"; sourceTree = "<group>"; };
-		738AB31666829A5418C88C518185D199 /* CMYRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMYRefresh-umbrella.h"; sourceTree = "<group>"; };
-		7580DE3656A7AB554F5CD2A4A4D8F894 /* Pods_CMYRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CMYRefresh_Example.framework; path = "Pods-CMYRefresh_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76F3A84DB444995BD47ECB0A82BEA084 /* Pods-CMYRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMYRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		783851D737BAB6431AFB6E5D6BEDAA12 /* Pods-CMYRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CMYRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
-		7A3BAE25CF1BA2061F96D95B6EA8ED0D /* Pods-CMYRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMYRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7C07C8ACD1A85EA70A0E7A1D4033BF0B /* Pods-CMYRefresh_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CMYRefresh_Example-dummy.m"; sourceTree = "<group>"; };
-		83C31A30C00BCCA9DFA0411AA0DAC3EE /* Pods-CMYRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMYRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8894E9F0636A9E7326FC41297B03BA24 /* CMYRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CMYRefresh-Info.plist"; sourceTree = "<group>"; };
-		91CD43BFFC2EFB61A84C333143639E78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		046F306653A1020FC392ED2F97A4362E /* cmy_arrow_down@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cmy_arrow_down@3x.png"; path = "CMYRefresh/Assets/cmy_arrow_down@3x.png"; sourceTree = "<group>"; };
+		0FC45538D4CC85F0B17A3094014A34B0 /* cmy_arrow_up@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cmy_arrow_up@3x.png"; path = "CMYRefresh/Assets/cmy_arrow_up@3x.png"; sourceTree = "<group>"; };
+		1DF50A593B4A9125A8A2ADAA00F16D50 /* CMYRefreshTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMYRefreshTool.swift; path = CMYRefresh/Classes/CMYRefreshTool.swift; sourceTree = "<group>"; };
+		22538571CFB1739C904B253C393DE0B9 /* CMYRefresh.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CMYRefresh.bundle; path = "CMYRefresh-CMYRefresh.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		281AB629C4BB78079C6A32EB2E358171 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2982A63E6CA554A5484B0514106B81EB /* CMYRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CMYRefresh.modulemap; sourceTree = "<group>"; };
+		30387657D3B99673BC34E63D987EE9A6 /* Pods-CMYRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMYRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		385BE4BC8F9A22BC998FEB358F2E8D3F /* CMYRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMYRefresh-prefix.pch"; sourceTree = "<group>"; };
+		38DDD97652E7D9C124411C6F181BB03B /* CMYRefreshConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMYRefreshConfig.swift; path = CMYRefresh/Classes/CMYRefreshConfig.swift; sourceTree = "<group>"; };
+		3A3A8B30E9A3E423F3390DB0DF53DC1C /* CMYRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMYRefresh-umbrella.h"; sourceTree = "<group>"; };
+		3CB7F7BF2DCD4DEEC6D68B1DF3DA291A /* Pods-CMYRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMYRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3E703441E5C8AE258C6AB447385CEAB0 /* Pods-CMYRefresh_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMYRefresh_Tests-Info.plist"; sourceTree = "<group>"; };
+		41C87706AAA53897869F1EA9869E28A1 /* CMYRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CMYRefresh-Info.plist"; sourceTree = "<group>"; };
+		42143ADFF6C335ACC69B3E96068F2B20 /* Pods-CMYRefresh_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CMYRefresh_Example-dummy.m"; sourceTree = "<group>"; };
+		42A3F3588DFDBA276E8E607135D455E0 /* Pods-CMYRefresh_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CMYRefresh_Example-frameworks.sh"; sourceTree = "<group>"; };
+		44F0CD521D96D7E2A8F1FEBFE7AFAE25 /* Pods-CMYRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CMYRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
+		4B4BD8A638CA7507670826E54B2A965C /* Pods-CMYRefresh_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CMYRefresh_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6041DF49725ADD5240B52461CDBAFB88 /* Pods_CMYRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CMYRefresh_Tests.framework; path = "Pods-CMYRefresh_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BCF9043031D334F1E01A4398094865 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		75FC5C73E21C92506350FC215AC556C6 /* Pods-CMYRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMYRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D1E40141F95102D35FDC6E1FFB26D0D /* Pods-CMYRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CMYRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FB6FDD704A0AE6205CDB443ABEBFEFF /* Pods-CMYRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMYRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		840DF2A394D228485A6C84F2877626CF /* Pods-CMYRefresh_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CMYRefresh_Example.modulemap"; sourceTree = "<group>"; };
+		843DD67602CC3C01EF49306BFC06E791 /* Pods-CMYRefresh_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CMYRefresh_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9C0427CD3E40CFB426124E8E050BE24C /* cmy_arrow_down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cmy_arrow_down@2x.png"; path = "CMYRefresh/Assets/cmy_arrow_down@2x.png"; sourceTree = "<group>"; };
+		9D1FB0D3D28DFF61D3B3319363C30AB1 /* CMYRefreshView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMYRefreshView.swift; path = CMYRefresh/Classes/CMYRefreshView.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A68C5FF5ED998193FEDE0D97FCA4E028 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		AB459699240D8C6DE9C33716A2370AB4 /* Pods-CMYRefresh_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CMYRefresh_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B5D235FDC0541B36F1AE3B861C7EB4D1 /* Pods-CMYRefresh_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMYRefresh_Example-Info.plist"; sourceTree = "<group>"; };
-		B61D833AAFA3097771C24DF356242638 /* CMYRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CMYRefresh-dummy.m"; sourceTree = "<group>"; };
-		B7BCD7EE6DDE3D0C49CB33F829D52E8B /* Pods-CMYRefresh_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMYRefresh_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BB0FCE47121190ECB46ECD0CDF41D0C5 /* Pods-CMYRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMYRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CB19FF93142C601C9E34F7A9105A811F /* Pods-CMYRefresh_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CMYRefresh_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A1A2EEFB9F256E08BC83F660B95B411C /* Pods-CMYRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMYRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD76444068ADE7129214B77A5069F2A3 /* CMYRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CMYRefresh.framework; path = CMYRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B03B9983772BFFF0C941B3F63FD9715A /* CMYRefreshConst.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMYRefreshConst.swift; path = CMYRefresh/Classes/CMYRefreshConst.swift; sourceTree = "<group>"; };
+		B7ADA2615CEB36DDEEC10D197BE8359D /* ResourceBundle-CMYRefresh-CMYRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CMYRefresh-CMYRefresh-Info.plist"; sourceTree = "<group>"; };
+		C03664CB5AC7F86EF7CF7F1FA62E786B /* CMYRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMYRefresh.swift; path = CMYRefresh/Classes/CMYRefresh.swift; sourceTree = "<group>"; };
+		C425D973BF38A4B1B7A198E1ECA101AC /* CMYRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CMYRefresh.xcconfig; sourceTree = "<group>"; };
+		C54478FB5B5836F90478551F46F34E76 /* Pods_CMYRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CMYRefresh_Example.framework; path = "Pods-CMYRefresh_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D70D461767D0F88339CFA6A11236F148 /* Pods-CMYRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CMYRefresh_Tests.modulemap"; sourceTree = "<group>"; };
-		DF43FC02ADB4DAA6BEABAD9CD9469F8C /* CMYRefreshConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMYRefreshConfig.swift; path = CMYRefresh/Classes/CMYRefreshConfig.swift; sourceTree = "<group>"; };
-		E1358E187ECDD57171EA8F5367BD17F2 /* Pods_CMYRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CMYRefresh_Tests.framework; path = "Pods-CMYRefresh_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3ED154833DF82012EA4AACF238ABF51 /* CMYRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMYRefresh.swift; path = CMYRefresh/Classes/CMYRefresh.swift; sourceTree = "<group>"; };
-		E8008A63BE5FBC57A0DE6541EC1E6BA6 /* Pods-CMYRefresh_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CMYRefresh_Example-umbrella.h"; sourceTree = "<group>"; };
-		EB571C94F5E120AC225F7419F37EE5B1 /* Pods-CMYRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMYRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EE203DB217615E02018FE4BAE208E429 /* Pods-CMYRefresh_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CMYRefresh_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F426F31D6C3291997AAE2CDAC532ECA0 /* CMYRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CMYRefresh.framework; path = CMYRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA02AA71454263B9E4A8F7FDE0DF47C8 /* CMYRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CMYRefresh.xcconfig; sourceTree = "<group>"; };
-		FBBD0FE4E91D339F80D9D9F1608EE568 /* CMYRefreshTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMYRefreshTool.swift; path = CMYRefresh/Classes/CMYRefreshTool.swift; sourceTree = "<group>"; };
+		D52DEC793A5750F4CF8CCFEF2ECA93A3 /* Pods-CMYRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CMYRefresh_Tests.modulemap"; sourceTree = "<group>"; };
+		D728EB6C6D252AA8C140504D69CCE224 /* cmy_arrow_up@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cmy_arrow_up@2x.png"; path = "CMYRefresh/Assets/cmy_arrow_up@2x.png"; sourceTree = "<group>"; };
+		D998FF32D91AAE60104671A75AC7CB86 /* CMYRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CMYRefresh-dummy.m"; sourceTree = "<group>"; };
+		E01A2A83080EE407BD80C1BF84D1766E /* Pods-CMYRefresh_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMYRefresh_Example-Info.plist"; sourceTree = "<group>"; };
+		E0B147E38967657BF7DFFA449AAC77EB /* CMYRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CMYRefresh.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E93B225270BB32355B2580738A4FB6FF /* Pods-CMYRefresh_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMYRefresh_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC31AEE262C4563680A1C38EBAF2761E /* Pods-CMYRefresh_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CMYRefresh_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B6A7C609D22124467CEF985B8F22A03 /* Frameworks */ = {
+		4F27306DF68914E32860BCF2D8FF451F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB443376D883EBFC16DAA064C2125DB /* Foundation.framework in Frameworks */,
+				F4EABF3815C4F8D670E93D9E35C0611C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,43 +122,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EB6D5725557AE589B4BC329180AEA511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27EBF34122B4E560587C7FA508FA2486 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2982A63E6CA554A5484B0514106B81EB /* CMYRefresh.modulemap */,
+				C425D973BF38A4B1B7A198E1ECA101AC /* CMYRefresh.xcconfig */,
+				D998FF32D91AAE60104671A75AC7CB86 /* CMYRefresh-dummy.m */,
+				41C87706AAA53897869F1EA9869E28A1 /* CMYRefresh-Info.plist */,
+				385BE4BC8F9A22BC998FEB358F2E8D3F /* CMYRefresh-prefix.pch */,
+				3A3A8B30E9A3E423F3390DB0DF53DC1C /* CMYRefresh-umbrella.h */,
+				B7ADA2615CEB36DDEEC10D197BE8359D /* ResourceBundle-CMYRefresh-CMYRefresh-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CMYRefresh";
+			sourceTree = "<group>";
+		};
 		4471ED5E5A81D204749070848F6C2356 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9A9DC1E661C8097103BB8BF77AD1595B /* Pods-CMYRefresh_Example */,
-				B325A93989FB72DAEE6341DF47B02A6F /* Pods-CMYRefresh_Tests */,
+				9E88F142CD8C388103D91C68A1D75C39 /* Pods-CMYRefresh_Example */,
+				4A8817254C471457FC1DEE1C9DEAC27C /* Pods-CMYRefresh_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		73F19C2D04DFFAF04A1866D94B69FF8A /* Pod */ = {
+		4A8817254C471457FC1DEE1C9DEAC27C /* Pods-CMYRefresh_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				4740B92E5F004DD0CCF602CDB7CEA4DA /* CMYRefresh.podspec */,
-				A68C5FF5ED998193FEDE0D97FCA4E028 /* LICENSE */,
-				91CD43BFFC2EFB61A84C333143639E78 /* README.md */,
+				D52DEC793A5750F4CF8CCFEF2ECA93A3 /* Pods-CMYRefresh_Tests.modulemap */,
+				7D1E40141F95102D35FDC6E1FFB26D0D /* Pods-CMYRefresh_Tests-acknowledgements.markdown */,
+				A1A2EEFB9F256E08BC83F660B95B411C /* Pods-CMYRefresh_Tests-acknowledgements.plist */,
+				44F0CD521D96D7E2A8F1FEBFE7AFAE25 /* Pods-CMYRefresh_Tests-dummy.m */,
+				3E703441E5C8AE258C6AB447385CEAB0 /* Pods-CMYRefresh_Tests-Info.plist */,
+				843DD67602CC3C01EF49306BFC06E791 /* Pods-CMYRefresh_Tests-umbrella.h */,
+				75FC5C73E21C92506350FC215AC556C6 /* Pods-CMYRefresh_Tests.debug.xcconfig */,
+				7FB6FDD704A0AE6205CDB443ABEBFEFF /* Pods-CMYRefresh_Tests.release.xcconfig */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		9A9DC1E661C8097103BB8BF77AD1595B /* Pods-CMYRefresh_Example */ = {
-			isa = PBXGroup;
-			children = (
-				1D73DFD2A41112C09ECC3E64B991C39A /* Pods-CMYRefresh_Example.modulemap */,
-				AB459699240D8C6DE9C33716A2370AB4 /* Pods-CMYRefresh_Example-acknowledgements.markdown */,
-				B7BCD7EE6DDE3D0C49CB33F829D52E8B /* Pods-CMYRefresh_Example-acknowledgements.plist */,
-				7C07C8ACD1A85EA70A0E7A1D4033BF0B /* Pods-CMYRefresh_Example-dummy.m */,
-				CB19FF93142C601C9E34F7A9105A811F /* Pods-CMYRefresh_Example-frameworks.sh */,
-				B5D235FDC0541B36F1AE3B861C7EB4D1 /* Pods-CMYRefresh_Example-Info.plist */,
-				E8008A63BE5FBC57A0DE6541EC1E6BA6 /* Pods-CMYRefresh_Example-umbrella.h */,
-				EB571C94F5E120AC225F7419F37EE5B1 /* Pods-CMYRefresh_Example.debug.xcconfig */,
-				83C31A30C00BCCA9DFA0411AA0DAC3EE /* Pods-CMYRefresh_Example.release.xcconfig */,
-			);
-			name = "Pods-CMYRefresh_Example";
-			path = "Target Support Files/Pods-CMYRefresh_Example";
+			name = "Pods-CMYRefresh_Tests";
+			path = "Target Support Files/Pods-CMYRefresh_Tests";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -151,51 +180,65 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B325A93989FB72DAEE6341DF47B02A6F /* Pods-CMYRefresh_Tests */ = {
+		9E88F142CD8C388103D91C68A1D75C39 /* Pods-CMYRefresh_Example */ = {
 			isa = PBXGroup;
 			children = (
-				D70D461767D0F88339CFA6A11236F148 /* Pods-CMYRefresh_Tests.modulemap */,
-				2F61D065F55C046FA58CBD20D1F81BC4 /* Pods-CMYRefresh_Tests-acknowledgements.markdown */,
-				76F3A84DB444995BD47ECB0A82BEA084 /* Pods-CMYRefresh_Tests-acknowledgements.plist */,
-				783851D737BAB6431AFB6E5D6BEDAA12 /* Pods-CMYRefresh_Tests-dummy.m */,
-				6FE0AB3664B1309D1263FAE8BDA03D58 /* Pods-CMYRefresh_Tests-Info.plist */,
-				EE203DB217615E02018FE4BAE208E429 /* Pods-CMYRefresh_Tests-umbrella.h */,
-				7A3BAE25CF1BA2061F96D95B6EA8ED0D /* Pods-CMYRefresh_Tests.debug.xcconfig */,
-				BB0FCE47121190ECB46ECD0CDF41D0C5 /* Pods-CMYRefresh_Tests.release.xcconfig */,
+				840DF2A394D228485A6C84F2877626CF /* Pods-CMYRefresh_Example.modulemap */,
+				4B4BD8A638CA7507670826E54B2A965C /* Pods-CMYRefresh_Example-acknowledgements.markdown */,
+				E93B225270BB32355B2580738A4FB6FF /* Pods-CMYRefresh_Example-acknowledgements.plist */,
+				42143ADFF6C335ACC69B3E96068F2B20 /* Pods-CMYRefresh_Example-dummy.m */,
+				42A3F3588DFDBA276E8E607135D455E0 /* Pods-CMYRefresh_Example-frameworks.sh */,
+				E01A2A83080EE407BD80C1BF84D1766E /* Pods-CMYRefresh_Example-Info.plist */,
+				FC31AEE262C4563680A1C38EBAF2761E /* Pods-CMYRefresh_Example-umbrella.h */,
+				30387657D3B99673BC34E63D987EE9A6 /* Pods-CMYRefresh_Example.debug.xcconfig */,
+				3CB7F7BF2DCD4DEEC6D68B1DF3DA291A /* Pods-CMYRefresh_Example.release.xcconfig */,
 			);
-			name = "Pods-CMYRefresh_Tests";
-			path = "Target Support Files/Pods-CMYRefresh_Tests";
+			name = "Pods-CMYRefresh_Example";
+			path = "Target Support Files/Pods-CMYRefresh_Example";
 			sourceTree = "<group>";
 		};
-		C4906B8547FC8E23670874E60F01BCC5 /* Support Files */ = {
+		AF08433540888DAC90B8C9D280D4077F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				46939F9E0EED9F61D8E70D63D6D93269 /* CMYRefresh.modulemap */,
-				FA02AA71454263B9E4A8F7FDE0DF47C8 /* CMYRefresh.xcconfig */,
-				B61D833AAFA3097771C24DF356242638 /* CMYRefresh-dummy.m */,
-				8894E9F0636A9E7326FC41297B03BA24 /* CMYRefresh-Info.plist */,
-				579C5D5BCB332DB10B0B8CFE27114016 /* CMYRefresh-prefix.pch */,
-				738AB31666829A5418C88C518185D199 /* CMYRefresh-umbrella.h */,
+				9C0427CD3E40CFB426124E8E050BE24C /* cmy_arrow_down@2x.png */,
+				046F306653A1020FC392ED2F97A4362E /* cmy_arrow_down@3x.png */,
+				D728EB6C6D252AA8C140504D69CCE224 /* cmy_arrow_up@2x.png */,
+				0FC45538D4CC85F0B17A3094014A34B0 /* cmy_arrow_up@3x.png */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CMYRefresh";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		C6434DBC188738FBC25A05F34094AD16 /* Development Pods */ = {
+		BCA70F13E0FC571BC6855333686FA3B3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D93D3C83D2A9F519DD3A93EC870475DA /* CMYRefresh */,
+				BE055E40451F975F690755E466EA902D /* CMYRefresh */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BE055E40451F975F690755E466EA902D /* CMYRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				C03664CB5AC7F86EF7CF7F1FA62E786B /* CMYRefresh.swift */,
+				38DDD97652E7D9C124411C6F181BB03B /* CMYRefreshConfig.swift */,
+				B03B9983772BFFF0C941B3F63FD9715A /* CMYRefreshConst.swift */,
+				1DF50A593B4A9125A8A2ADAA00F16D50 /* CMYRefreshTool.swift */,
+				9D1FB0D3D28DFF61D3B3319363C30AB1 /* CMYRefreshView.swift */,
+				D9D8D91AD945E64A7D7ED7DC7EAA62C2 /* Pod */,
+				AF08433540888DAC90B8C9D280D4077F /* Resources */,
+				27EBF34122B4E560587C7FA508FA2486 /* Support Files */,
+			);
+			name = CMYRefresh;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C6434DBC188738FBC25A05F34094AD16 /* Development Pods */,
+				BCA70F13E0FC571BC6855333686FA3B3 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				F5A6D2A1B0D247714C25AFE47C99D85F /* Products */,
+				DD4F48D9A75CDCB8EC61727F57CB1CDC /* Products */,
 				4471ED5E5A81D204749070848F6C2356 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -208,27 +251,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D93D3C83D2A9F519DD3A93EC870475DA /* CMYRefresh */ = {
+		D9D8D91AD945E64A7D7ED7DC7EAA62C2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E3ED154833DF82012EA4AACF238ABF51 /* CMYRefresh.swift */,
-				DF43FC02ADB4DAA6BEABAD9CD9469F8C /* CMYRefreshConfig.swift */,
-				2D1CA46920F1B79CF12DB39598CE1243 /* CMYRefreshConst.swift */,
-				FBBD0FE4E91D339F80D9D9F1608EE568 /* CMYRefreshTool.swift */,
-				5C98FB806950DA5E8351094A7163253F /* CMYRefreshView.swift */,
-				73F19C2D04DFFAF04A1866D94B69FF8A /* Pod */,
-				C4906B8547FC8E23670874E60F01BCC5 /* Support Files */,
+				E0B147E38967657BF7DFFA449AAC77EB /* CMYRefresh.podspec */,
+				64BCF9043031D334F1E01A4398094865 /* LICENSE */,
+				281AB629C4BB78079C6A32EB2E358171 /* README.md */,
 			);
-			name = CMYRefresh;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		F5A6D2A1B0D247714C25AFE47C99D85F /* Products */ = {
+		DD4F48D9A75CDCB8EC61727F57CB1CDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F426F31D6C3291997AAE2CDAC532ECA0 /* CMYRefresh.framework */,
-				7580DE3656A7AB554F5CD2A4A4D8F894 /* Pods_CMYRefresh_Example.framework */,
-				E1358E187ECDD57171EA8F5367BD17F2 /* Pods_CMYRefresh_Tests.framework */,
+				22538571CFB1739C904B253C393DE0B9 /* CMYRefresh.bundle */,
+				AD76444068ADE7129214B77A5069F2A3 /* CMYRefresh.framework */,
+				C54478FB5B5836F90478551F46F34E76 /* Pods_CMYRefresh_Example.framework */,
+				6041DF49725ADD5240B52461CDBAFB88 /* Pods_CMYRefresh_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,6 +275,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0EFBD56A6E5D62E3FA270FB146F60D7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9F78754F0D9C53CF1814CA7415A620 /* CMYRefresh-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28E8DAEA464F93D9BA3DF6AB95F9FF29 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,18 +299,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C129D909A1824765C2529D4DEDE3DFB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7181162DDE86817ABA9741FD66FB7551 /* CMYRefresh-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		421DFDC3724F04FC0EC46C4B996EA03C /* Pods-CMYRefresh_Example */ = {
+		2AC433E4EF255CB7BEC88F92A9A04BF2 /* CMYRefresh-CMYRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A817FA787FAFD424D13D822208ECB0 /* Build configuration list for PBXNativeTarget "CMYRefresh-CMYRefresh" */;
+			buildPhases = (
+				888E372DAAAC8C968AB17A2F98179893 /* Sources */,
+				EB6D5725557AE589B4BC329180AEA511 /* Frameworks */,
+				8CB9FB9154762CA9156FEC395160E34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CMYRefresh-CMYRefresh";
+			productName = "CMYRefresh-CMYRefresh";
+			productReference = 22538571CFB1739C904B253C393DE0B9 /* CMYRefresh.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		60AB480702171A4AD41E6E0687CF8D99 /* CMYRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA40A52BF5F151601A73875A5EB396CC /* Build configuration list for PBXNativeTarget "CMYRefresh" */;
+			buildPhases = (
+				0EFBD56A6E5D62E3FA270FB146F60D7F /* Headers */,
+				37C949442F4D3DDC6B35045CAE0155DF /* Sources */,
+				4F27306DF68914E32860BCF2D8FF451F /* Frameworks */,
+				3D0823284278314B86A4DAD6F60410AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				613EB1484C68D69D3A4105122676378A /* PBXTargetDependency */,
+			);
+			name = CMYRefresh;
+			productName = CMYRefresh;
+			productReference = AD76444068ADE7129214B77A5069F2A3 /* CMYRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		696D4D5DBD8C715494506009C3076519 /* Pods-CMYRefresh_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 097AE1D0F7AFB78A4ECF141F187BF97E /* Build configuration list for PBXNativeTarget "Pods-CMYRefresh_Example" */;
 			buildPhases = (
@@ -279,28 +354,10 @@
 			);
 			name = "Pods-CMYRefresh_Example";
 			productName = "Pods-CMYRefresh_Example";
-			productReference = 7580DE3656A7AB554F5CD2A4A4D8F894 /* Pods_CMYRefresh_Example.framework */;
+			productReference = C54478FB5B5836F90478551F46F34E76 /* Pods_CMYRefresh_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		66F58F826B8FF9976809E5BF2E673077 /* CMYRefresh */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 07B7065FEA0A5CF7474DD133F41E28BC /* Build configuration list for PBXNativeTarget "CMYRefresh" */;
-			buildPhases = (
-				8C129D909A1824765C2529D4DEDE3DFB /* Headers */,
-				915A5C8DB36B2690E2BA8D0F7CD0F53C /* Sources */,
-				3B6A7C609D22124467CEF985B8F22A03 /* Frameworks */,
-				A21FDB124A762DB708AF7E040788E114 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CMYRefresh;
-			productName = CMYRefresh;
-			productReference = F426F31D6C3291997AAE2CDAC532ECA0 /* CMYRefresh.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C4FCBEE381A6E1285B3E08EDF68131F2 /* Pods-CMYRefresh_Tests */ = {
+		A218680B68E67981248260EC60C386C9 /* Pods-CMYRefresh_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59A2AB3FCBA076E8540560C6CFAD5A49 /* Build configuration list for PBXNativeTarget "Pods-CMYRefresh_Tests" */;
 			buildPhases = (
@@ -316,7 +373,7 @@
 			);
 			name = "Pods-CMYRefresh_Tests";
 			productName = "Pods-CMYRefresh_Tests";
-			productReference = E1358E187ECDD57171EA8F5367BD17F2 /* Pods_CMYRefresh_Tests.framework */;
+			productReference = 6041DF49725ADD5240B52461CDBAFB88 /* Pods_CMYRefresh_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -336,13 +393,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F5A6D2A1B0D247714C25AFE47C99D85F /* Products */;
+			productRefGroup = DD4F48D9A75CDCB8EC61727F57CB1CDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				66F58F826B8FF9976809E5BF2E673077 /* CMYRefresh */,
-				421DFDC3724F04FC0EC46C4B996EA03C /* Pods-CMYRefresh_Example */,
-				C4FCBEE381A6E1285B3E08EDF68131F2 /* Pods-CMYRefresh_Tests */,
+				60AB480702171A4AD41E6E0687CF8D99 /* CMYRefresh */,
+				2AC433E4EF255CB7BEC88F92A9A04BF2 /* CMYRefresh-CMYRefresh */,
+				696D4D5DBD8C715494506009C3076519 /* Pods-CMYRefresh_Example */,
+				A218680B68E67981248260EC60C386C9 /* Pods-CMYRefresh_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -355,10 +413,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A21FDB124A762DB708AF7E040788E114 /* Resources */ = {
+		3D0823284278314B86A4DAD6F60410AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C240D9F433CB6165B909A2FAEC471E /* CMYRefresh.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB9FB9154762CA9156FEC395160E34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE79230AAA042F630A75543DF7C900F /* cmy_arrow_down@2x.png in Resources */,
+				6DC5542F7CA9800EBD34794FCA67FBE8 /* cmy_arrow_down@3x.png in Resources */,
+				8A86C36693F7673A005D1B098A68E1F4 /* cmy_arrow_up@2x.png in Resources */,
+				AC11E5E0A6BE1BD93855EE380049AF3D /* cmy_arrow_up@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +450,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37C949442F4D3DDC6B35045CAE0155DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCC6A23253BB1AB9D4282FEF369FEF5 /* CMYRefresh-dummy.m in Sources */,
+				DB312434FBB3ED116DDEAE822F20CACE /* CMYRefresh.swift in Sources */,
+				58244E6198442DF578679F1800245580 /* CMYRefreshConfig.swift in Sources */,
+				E4181FB165BF3CCADA1A306B45F0C205 /* CMYRefreshConst.swift in Sources */,
+				23002DE831DF9BF28EEE214C8494EE53 /* CMYRefreshTool.swift in Sources */,
+				DC924BA6B53DBB06D2183429B1B7BCB7 /* CMYRefreshView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F35F682FD686E672FAEB02A097BBE39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,32 +471,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		915A5C8DB36B2690E2BA8D0F7CD0F53C /* Sources */ = {
+		888E372DAAAC8C968AB17A2F98179893 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2D08C77FE5A9807631D93E8B2AB0DD2 /* CMYRefresh-dummy.m in Sources */,
-				1E1DE13338A75FFD2C2710CBF69937E9 /* CMYRefresh.swift in Sources */,
-				F416258D22CB7A014C82D71BACAD5556 /* CMYRefreshConfig.swift in Sources */,
-				905C2AA93EADC59C819A6A0C5C513133 /* CMYRefreshConst.swift in Sources */,
-				CF6977490F5B62FD17D2B97E78CBB9BF /* CMYRefreshTool.swift in Sources */,
-				8D46DF8C64D53A2BF42F769018387105 /* CMYRefreshView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		613EB1484C68D69D3A4105122676378A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CMYRefresh-CMYRefresh";
+			target = 2AC433E4EF255CB7BEC88F92A9A04BF2 /* CMYRefresh-CMYRefresh */;
+			targetProxy = 45000C3FFF339186001CC241D8FD283B /* PBXContainerItemProxy */;
+		};
 		97A1F15D0CBA1E39E886BC46C87218D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CMYRefresh_Example";
-			target = 421DFDC3724F04FC0EC46C4B996EA03C /* Pods-CMYRefresh_Example */;
+			target = 696D4D5DBD8C715494506009C3076519 /* Pods-CMYRefresh_Example */;
 			targetProxy = 8135A11F5789CEA4D43D79A232AF0FC0 /* PBXContainerItemProxy */;
 		};
 		B4F2AB67005A16C727FAECA4999B31C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CMYRefresh;
-			target = 66F58F826B8FF9976809E5BF2E673077 /* CMYRefresh */;
+			target = 60AB480702171A4AD41E6E0687CF8D99 /* CMYRefresh */;
 			targetProxy = 867D1890A5A60E0FFD6F12AFCB0CF9A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -421,7 +504,7 @@
 /* Begin XCBuildConfiguration section */
 		156AB3A5882F1267844643D9AB158065 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83C31A30C00BCCA9DFA0411AA0DAC3EE /* Pods-CMYRefresh_Example.release.xcconfig */;
+			baseConfigurationReference = 3CB7F7BF2DCD4DEEC6D68B1DF3DA291A /* Pods-CMYRefresh_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -453,72 +536,41 @@
 			};
 			name = Release;
 		};
-		40EAEDB570B610A5456E9CD7799B8494 /* Debug */ = {
+		58AC2331FE58E72E64044041A38819FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA02AA71454263B9E4A8F7FDE0DF47C8 /* CMYRefresh.xcconfig */;
+			baseConfigurationReference = C425D973BF38A4B1B7A198E1ECA101AC /* CMYRefresh.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CMYRefresh/CMYRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CMYRefresh/CMYRefresh-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CMYRefresh";
+				INFOPLIST_FILE = "Target Support Files/CMYRefresh/ResourceBundle-CMYRefresh-CMYRefresh-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CMYRefresh/CMYRefresh.modulemap";
-				PRODUCT_MODULE_NAME = CMYRefresh;
 				PRODUCT_NAME = CMYRefresh;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		4921F126234E6F7002257447CE151FB0 /* Release */ = {
+		7B772EC9D5C9661EB6DC3FECB51EB2B4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA02AA71454263B9E4A8F7FDE0DF47C8 /* CMYRefresh.xcconfig */;
+			baseConfigurationReference = C425D973BF38A4B1B7A198E1ECA101AC /* CMYRefresh.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CMYRefresh/CMYRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CMYRefresh/CMYRefresh-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CMYRefresh";
+				INFOPLIST_FILE = "Target Support Files/CMYRefresh/ResourceBundle-CMYRefresh-CMYRefresh-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CMYRefresh/CMYRefresh.modulemap";
-				PRODUCT_MODULE_NAME = CMYRefresh;
 				PRODUCT_NAME = CMYRefresh;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
 		88E3100B1E66A24DA33BD36BFC4BA5D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB571C94F5E120AC225F7419F37EE5B1 /* Pods-CMYRefresh_Example.debug.xcconfig */;
+			baseConfigurationReference = 30387657D3B99673BC34E63D987EE9A6 /* Pods-CMYRefresh_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -548,6 +600,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A59D70EEAA189534FFC221CDA189D3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C425D973BF38A4B1B7A198E1ECA101AC /* CMYRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CMYRefresh/CMYRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CMYRefresh/CMYRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CMYRefresh/CMYRefresh.modulemap";
+				PRODUCT_MODULE_NAME = CMYRefresh;
+				PRODUCT_NAME = CMYRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -615,7 +699,7 @@
 		};
 		DA7B8A27B5D9FE8F27387C1908B2CD74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A3BAE25CF1BA2061F96D95B6EA8ED0D /* Pods-CMYRefresh_Tests.debug.xcconfig */;
+			baseConfigurationReference = 75FC5C73E21C92506350FC215AC556C6 /* Pods-CMYRefresh_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -640,6 +724,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBA6FED567C316EA4BC082F84EFF7C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C425D973BF38A4B1B7A198E1ECA101AC /* CMYRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CMYRefresh/CMYRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CMYRefresh/CMYRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CMYRefresh/CMYRefresh.modulemap";
+				PRODUCT_MODULE_NAME = CMYRefresh;
+				PRODUCT_NAME = CMYRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -708,7 +823,7 @@
 		};
 		F6BE2E263A8605A48C04F33A38619D64 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB0FCE47121190ECB46ECD0CDF41D0C5 /* Pods-CMYRefresh_Tests.release.xcconfig */;
+			baseConfigurationReference = 7FB6FDD704A0AE6205CDB443ABEBFEFF /* Pods-CMYRefresh_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -743,15 +858,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07B7065FEA0A5CF7474DD133F41E28BC /* Build configuration list for PBXNativeTarget "CMYRefresh" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				40EAEDB570B610A5456E9CD7799B8494 /* Debug */,
-				4921F126234E6F7002257447CE151FB0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		097AE1D0F7AFB78A4ECF141F187BF97E /* Build configuration list for PBXNativeTarget "Pods-CMYRefresh_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -775,6 +881,24 @@
 			buildConfigurations = (
 				DA7B8A27B5D9FE8F27387C1908B2CD74 /* Debug */,
 				F6BE2E263A8605A48C04F33A38619D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA40A52BF5F151601A73875A5EB396CC /* Build configuration list for PBXNativeTarget "CMYRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA6FED567C316EA4BC082F84EFF7C9C /* Debug */,
+				A59D70EEAA189534FFC221CDA189D3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A817FA787FAFD424D13D822208ECB0 /* Build configuration list for PBXNativeTarget "CMYRefresh-CMYRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AC2331FE58E72E64044041A38819FF /* Debug */,
+				7B772EC9D5C9661EB6DC3FECB51EB2B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

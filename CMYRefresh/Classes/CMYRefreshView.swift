@@ -52,8 +52,8 @@ public class CMYRefreshView: UIView {
     // MARK: - Const
     let imageViewMargin: CGFloat = 5
     let imageViewWidth = 16
-    let imageDown = "cmy_arrow_down@2x.png"
-    let imageUp = "cmy_arrow_up@2x.png"
+    let imageDown = "cmy_arrow_down@2x"
+    let imageUp = "cmy_arrow_up@2x"
     
     // MARK: - Property
     var position: CMYRefreshPosition
