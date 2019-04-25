@@ -74,7 +74,7 @@ public class CMYRefreshView: UIView {
     }()
     
     lazy var refreshingView: UIActivityIndicatorView = {
-        var refreshingView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        var refreshingView = UIActivityIndicatorView(style: .gray)
         refreshingView.hidesWhenStopped = true
         return refreshingView
     }()
